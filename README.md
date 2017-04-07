@@ -1,4 +1,4 @@
-cgtec_appman
-============
+TG Project
+==========
 
-A Symfony project created on March 31, 2017, 10:48 am.
+Projeto criado para TG
