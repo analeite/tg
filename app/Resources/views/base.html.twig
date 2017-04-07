@@ -3,11 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('assets/vendor/AdminLTE/bootstrap/css/bootstrap.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/vendor/AdminLTE/dist/css/AdminLTE.min.css') }}">
+            <link rel="stylesheet" href="{{ asset('assets/vendor/AdminLTE/dist/css/skins/skin-blue.min.css') }}">
+        {% endblock %}
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
     <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+    {% block body %}{% endblock %}
+    {% block javascripts %}
+        <script src="{{ asset('assets/vendor/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js') }}"></script>
+        <script src="{{ asset('assets/vendor/AdminLTE/bootstrap/js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('assets/vendor/AdminLTE/dist/js/app.min.js') }}"></script>
+    {% endblock %}
+</body>
 </html>
