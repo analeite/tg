@@ -1,1 +1,4 @@
+app_name: TG
+page.principal_title: Dashboard
 index.test_text: Texto de Teste
+login.msg_welcome: Bem vindo

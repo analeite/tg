@@ -79,8 +79,8 @@ jms_i18n_routing:
     locales: [en, br]
     strategy: custom
     hosts:
-        br: br.cgtec.local
-        en: en.cgtec.local
+        br: br.tg.local
+        en: en.tg.local
     redirect_to_host: true
     
 fos_user:
