@@ -9,6 +9,8 @@ security.login.password: Senha
 security.login.remember_me: 'Permanecer conectado'
 security.login.submit: Entrar
 profile.show.username: Usuário
+profile.show.name: Nome
+profile.show.lastlogin: Último login
 profile.show.email: Email
 profile.edit.submit: Atualizar
 profile.flash.updated: 'O perfil foi atualizado.'
@@ -40,3 +42,5 @@ form.password: Senha
 form.password_confirmation: 'Repita a senha'
 form.new_password: 'Nova senha'
 form.new_password_confirmation: 'Repita a nova senha'
+user.menu_profile: Perfil
+user.user_profile: Perfil do usuário
